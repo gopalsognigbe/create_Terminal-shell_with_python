@@ -1,9 +1,10 @@
+
 import subprocess
 import os
 #Popen : old interface
 #Run : execute the comand and waiting result
 
-while True:
+while True :
     command = input(f"{os.getcwd()} > ")
  
  # Case cd for changing directory
