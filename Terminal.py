@@ -9,7 +9,7 @@ while True :
  
  # Case cd for changing directory
     command_split = command.split(" ")
-    if len(command_split)== 2 and command_split[0] == "cd":
+    if len(command_split)==  2 and command_split[0] == "cd":
         try: 
             os.chdir(command_split[1])
         except FileNotFoundError:
@@ -17,7 +17,7 @@ while True :
 
 
  #exit terminal
-    elif command.lower() == "exit":
+    elif command.lower() == "exit" :
         break
  
     else:
