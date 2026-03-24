@@ -18,7 +18,7 @@ while True :
 
  #exit terminal
     elif command.lower() == "exit" :
-        break
+         break 
  
     else:
         resultat = subprocess.run(f"{command}",shell=True, capture_output=True, universal_newlines=True)
