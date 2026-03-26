@@ -30,7 +30,7 @@ while True :
 
 
         
-        print (resultat.stderr
+        print  (resultat.stderr
                  )
         print("exit pour sortir")
         
