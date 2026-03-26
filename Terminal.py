@@ -32,7 +32,6 @@ while True :
         
         print  (resultat.stderrb
                   
-                 
                     )
-        print("exit pour sortir")
+        print("ex jjit pour sortir")
         
