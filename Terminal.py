@@ -26,7 +26,7 @@ while True :
         resultat  = subprocess.run(f"{command}",shell=True, capture_output=True,  universal_newlines=True)
 
         
-        print(resultat.stdout)
+        print( resultat.stdout)
 
 
         print(resultat.stderr )
