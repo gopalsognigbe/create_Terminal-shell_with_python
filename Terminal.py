@@ -29,6 +29,8 @@ while True :
         print( resultat.stdout)
 
 
-        print (resultat.stderr )
+        
+        print (resultat.stderr
+                )
         print("exit pour sortir")
         
