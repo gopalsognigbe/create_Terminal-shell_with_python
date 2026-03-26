@@ -33,5 +33,5 @@ while True :
         print  (resultat.stderrb
                   
                     )
-        print("ex jjit pour sortir")
+        print("ex jjitnb pour sortir")
         
